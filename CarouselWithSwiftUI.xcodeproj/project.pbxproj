@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A2D0EDB271F3436009AC68C /* CarouselWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D0EDA271F3436009AC68C /* CarouselWithSwiftUIApp.swift */; };
-		7A2D0EDD271F3436009AC68C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D0EDC271F3436009AC68C /* ContentView.swift */; };
-		7A2D0EDF271F3437009AC68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D0EDE271F3437009AC68C /* Assets.xcassets */; };
-		7A2D0EE2271F3437009AC68C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D0EE1271F3437009AC68C /* Preview Assets.xcassets */; };
+		7ABDAAB0271F36EA00FF6C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDAAAA271F36EA00FF6C48 /* Assets.xcassets */; };
+		7ABDAAB1271F36EA00FF6C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDAAAC271F36EA00FF6C48 /* Preview Assets.xcassets */; };
+		7ABDAAB2271F36EA00FF6C48 /* CarouselWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDAAAD271F36EA00FF6C48 /* CarouselWithSwiftUIApp.swift */; };
+		7ABDAAB3271F36EA00FF6C48 /* SampleCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDAAAE271F36EA00FF6C48 /* SampleCarouselView.swift */; };
+		7ABDAAB6271F372E00FF6C48 /* SampleCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDAAB5271F372E00FF6C48 /* SampleCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A2D0ED7271F3436009AC68C /* CarouselWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A2D0EDA271F3436009AC68C /* CarouselWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselWithSwiftUIApp.swift; sourceTree = "<group>"; };
-		7A2D0EDC271F3436009AC68C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7A2D0EDE271F3437009AC68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A2D0EE1271F3437009AC68C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7A2D0EE3271F3437009AC68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABDAAAA271F36EA00FF6C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABDAAAC271F36EA00FF6C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ABDAAAD271F36EA00FF6C48 /* CarouselWithSwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselWithSwiftUIApp.swift; sourceTree = "<group>"; };
+		7ABDAAAE271F36EA00FF6C48 /* SampleCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCarouselView.swift; sourceTree = "<group>"; };
+		7ABDAAAF271F36EA00FF6C48 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABDAAB5271F372E00FF6C48 /* SampleCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +38,7 @@
 		7A2D0ECE271F3436009AC68C = {
 			isa = PBXGroup;
 			children = (
-				7A2D0ED9271F3436009AC68C /* CarouselWithSwiftUI */,
+				7ABDAAA9271F36EA00FF6C48 /* Source */,
 				7A2D0ED8271F3436009AC68C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,22 +51,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A2D0ED9271F3436009AC68C /* CarouselWithSwiftUI */ = {
+		7ABDAAA9271F36EA00FF6C48 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				7A2D0EDA271F3436009AC68C /* CarouselWithSwiftUIApp.swift */,
-				7A2D0EDC271F3436009AC68C /* ContentView.swift */,
-				7A2D0EDE271F3437009AC68C /* Assets.xcassets */,
-				7A2D0EE3271F3437009AC68C /* Info.plist */,
-				7A2D0EE0271F3437009AC68C /* Preview Content */,
+				7ABDAAAD271F36EA00FF6C48 /* CarouselWithSwiftUIApp.swift */,
+				7ABDAAAE271F36EA00FF6C48 /* SampleCarouselView.swift */,
+				7ABDAAB5271F372E00FF6C48 /* SampleCollectionView.swift */,
+				7ABDAAAF271F36EA00FF6C48 /* Info.plist */,
+				7ABDAAAA271F36EA00FF6C48 /* Assets.xcassets */,
+				7ABDAAAB271F36EA00FF6C48 /* Preview Content */,
 			);
-			path = CarouselWithSwiftUI;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		7A2D0EE0271F3437009AC68C /* Preview Content */ = {
+		7ABDAAAB271F36EA00FF6C48 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7A2D0EE1271F3437009AC68C /* Preview Assets.xcassets */,
+				7ABDAAAC271F36EA00FF6C48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,8 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2D0EE2271F3437009AC68C /* Preview Assets.xcassets in Resources */,
-				7A2D0EDF271F3437009AC68C /* Assets.xcassets in Resources */,
+				7ABDAAB1271F36EA00FF6C48 /* Preview Assets.xcassets in Resources */,
+				7ABDAAB0271F36EA00FF6C48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2D0EDD271F3436009AC68C /* ContentView.swift in Sources */,
-				7A2D0EDB271F3436009AC68C /* CarouselWithSwiftUIApp.swift in Sources */,
+				7ABDAAB3271F36EA00FF6C48 /* SampleCarouselView.swift in Sources */,
+				7ABDAAB2271F36EA00FF6C48 /* CarouselWithSwiftUIApp.swift in Sources */,
+				7ABDAAB6271F372E00FF6C48 /* SampleCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +272,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CarouselWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Source/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CarouselWithSwiftUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,9 +293,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CarouselWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Source/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CarouselWithSwiftUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
